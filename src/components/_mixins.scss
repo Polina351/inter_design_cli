@@ -1,0 +1,18 @@
+@import 'vars';
+
+
+@mixin textPropertys($cl, $ff, $fsz, $fs, $fw, $lh) {
+    color: $cl;
+    font-family: $ff, sans-serif;
+    font-size: $fsz;
+    font-style: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}
+
+@mixin pageSize() {
+    background-image: url('../assets/Line.svg');
+    background-size: cover;
+    max-width: $siteWidth;
+    margin: 0 auto;
+}
